@@ -1,0 +1,58 @@
+.section-start_road {
+  background-color: rgb(255, 246, 230);
+  /* margin: 60px 0; */
+  padding: 124px;
+}
+
+.top-start_road {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.top-start_road h2 {
+  font-size: 30px;
+  color: rgb(50, 50, 50);
+}
+
+.icon-start_road {
+  font-size: 40px;
+  color: rgb(185, 1, 1);
+}
+
+.btm-start_road p {
+  color: rgb(137, 137, 137);
+  text-wrap: wrap;
+}
+.btn-start_road{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(185, 1, 1);
+  color: rgb(251, 245, 186);
+  color: rg;
+  font-size: 20px;
+  transition: all 0.4s;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  text-align: center;
+  margin: 20px;
+}
+.btn-start_road:hover{
+  background-color: rgb(251, 245, 186);
+  color: rgb(185, 1, 1);
+}
+
+@media screen and (max-width:500px){
+  .top-start_road h2{
+    font-size: 20px;
+  }
+  .icon-start_road{
+    font-size: 30px;
+  }
+  .section-start_road{
+    padding: 60px;
+  }
+}

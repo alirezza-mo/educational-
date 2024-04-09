@@ -1,0 +1,28 @@
+.last-product{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: rgb(251, 245, 186);
+  padding-bottom: 60px;
+}
+.container{
+  margin: 0 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:30px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width:900px){
+  .container{
+    justify-content: center;
+  }
+}
+@media only screen and (max-width:560px){
+  .container{
+    margin: 20px;
+  }
+}
