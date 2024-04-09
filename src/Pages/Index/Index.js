@@ -6,6 +6,7 @@ import WithUs from '../../Components/WithUs/WithUs'
 import NewProduct from '../../Components/NewProduct/NewProduct'
 import StartRoad from '../../Components/StartRoad/StartRoad'
 import Articles from '../../Components/Articles/Articles'
+import Footer from '../../Components/Footer/Footer'
 
 function Index() {
   return (
@@ -17,6 +18,7 @@ function Index() {
       <NewProduct/>
       <StartRoad/>
       <Articles/>
+      <Footer />
     </>
   )
 }

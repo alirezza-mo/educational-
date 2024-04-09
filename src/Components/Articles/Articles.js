@@ -1,17 +1,99 @@
-import React from 'react'
+import React from "react";
 
-import TopSection from '../TopSection/TopSection'
+import TopSection from "../TopSection/TopSection";
 
-import './Articles.css'
+import "./Articles.css";
+import ArticleBox from "../ArticleBox/ArticleBox";
 
 function Articles() {
   return (
     <>
-      <TopSection title={"اخرین مقاله ها"} >
-        <button className='btn-left-header_section'> مشاهده همه مقاله ها</button>
-        </TopSection>
+    <section className="section-articles">
+      
+      <TopSection title={"اخرین مقاله ها"}>
+        <button className="btn-left-header_section">
+          {" "}
+          مشاهده همه مقاله ها
+        </button>
+      </TopSection>
+      <div className="container">
+        <ArticleBox
+          title={"آموزش Eval در جاوا اسکریپت"}
+          desc={
+            "تابع eval در جاوا اسکریپت نوعی تابع داخلی است که می‌توان به صورت سراسری به آن دسترسی داشت، به این معنی که شما به عنوان یک برنامه‌نویس می‌توانید بدون نیاز…"
+          }
+          author={'احمد محمدی'}
+          date={'1403/01/02'}
+          img={'./images/ang (2).jpg'}
+          />
+          <ArticleBox
+          title={"آموزش Eval در جاوا اسکریپت"}
+          desc={
+            "تابع eval در جاوا اسکریپت نوعی تابع داخلی است که می‌توان به صورت سراسری به آن دسترسی داشت، به این معنی که شما به عنوان یک برنامه‌نویس می‌توانید بدون نیاز…"
+          }
+          author={'احمد محمدی'}
+          date={'1403/01/02'}
+          img={'./images/ang (2).jpg'}
+          />
+          <ArticleBox
+          title={"آموزش Eval در جاوا اسکریپت"}
+          desc={
+            "تابع eval در جاوا اسکریپت نوعی تابع داخلی است که می‌توان به صورت سراسری به آن دسترسی داشت، به این معنی که شما به عنوان یک برنامه‌نویس می‌توانید بدون نیاز…"
+          }
+          author={'احمد محمدی'}
+          date={'1403/01/02'}
+          img={'./images/ang (2).jpg'}
+          />
+          <ArticleBox
+          title={"آموزش Eval در جاوا اسکریپت"}
+          desc={
+            "تابع eval در جاوا اسکریپت نوعی تابع داخلی است که می‌توان به صورت سراسری به آن دسترسی داشت، به این معنی که شما به عنوان یک برنامه‌نویس می‌توانید بدون نیاز…"
+          }
+          author={'احمد محمدی'}
+          date={'1403/01/02'}
+          img={'./images/ang (2).jpg'}
+          />
+          <ArticleBox
+          title={"آموزش Eval در جاوا اسکریپت"}
+          desc={
+            "تابع eval در جاوا اسکریپت نوعی تابع داخلی است که می‌توان به صورت سراسری به آن دسترسی داشت، به این معنی که شما به عنوان یک برنامه‌نویس می‌توانید بدون نیاز…"
+          }
+          author={'احمد محمدی'}
+          date={'1403/01/02'}
+          img={'./images/ang (2).jpg'}
+          />
+          <ArticleBox
+          title={"آموزش Eval در جاوا اسکریپت"}
+          desc={
+            "تابع eval در جاوا اسکریپت نوعی تابع داخلی است که می‌توان به صورت سراسری به آن دسترسی داشت، به این معنی که شما به عنوان یک برنامه‌نویس می‌توانید بدون نیاز…"
+          }
+          author={'احمد محمدی'}
+          date={'1403/01/02'}
+          img={'./images/ang (2).jpg'}
+          />
+          <ArticleBox
+          title={"آموزش Eval در جاوا اسکریپت"}
+          desc={
+            "تابع eval در جاوا اسکریپت نوعی تابع داخلی است که می‌توان به صورت سراسری به آن دسترسی داشت، به این معنی که شما به عنوان یک برنامه‌نویس می‌توانید بدون نیاز…"
+          }
+          author={'احمد محمدی'}
+          date={'1403/01/02'}
+          img={'./images/ang (2).jpg'}
+          />
+          <ArticleBox
+          title={"آموزش Eval در جاوا اسکریپت"}
+          desc={
+            "تابع eval در جاوا اسکریپت نوعی تابع داخلی است که می‌توان به صورت سراسری به آن دسترسی داشت، به این معنی که شما به عنوان یک برنامه‌نویس می‌توانید بدون نیاز…"
+          }
+          author={'احمد محمدی'}
+          date={'1403/01/02'}
+          img={'./images/ang (2).jpg'}
+          />
+        
+      </div>
+          </section>
     </>
-  )
+  );
 }
 
-export default Articles
+export default Articles;
