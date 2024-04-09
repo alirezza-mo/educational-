@@ -4,6 +4,7 @@ import { FaBars } from "react-icons/fa6";
 
 
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -11,11 +12,11 @@ function Navbar() {
       <nav className="nav-header">
         <FaBars  className="bars-icon"/>
         <ul className="ul_nav">
-          <li> خانه </li>
-          <li> دوره ها </li>
-          <li> فرانت اند</li>
-          <li> مقالات </li>
-          <li> درباره ما </li>
+          <Link to={'/'} className="link-navbar"> خانه </Link>
+          <Link to={'/products'} className="link-navbar"> دوره ها </Link>
+          <Link to={'/products'} className="link-navbar"> فرانت اند</Link>
+          <Link to={'/articles'} className="link-navbar"> مقالات </Link>
+          <Link to={'/articles'} className="link-navbar"> درباره ما </Link>
 
         </ul>
         <div className="left-section__header">
